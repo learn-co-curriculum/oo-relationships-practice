@@ -28,7 +28,3 @@ Write out the relationships using has_many, belongs_to and has_many_through. Wri
 #### Actor
 - actor#most_characters
   - should return which actor has the most different characters played. (probably meryl streep)
-
-## Testing Your Code
-
-We've provided you with a console that you can use to test your code. To enter a console session, run ruby tools/console.rb. You'll be able to test out the methods that you write here.
