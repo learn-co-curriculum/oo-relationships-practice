@@ -14,13 +14,13 @@ location#clients
 Client.all.select {|c| c.locations.includes?(self)}
 
 #### Client
-- client#assign_trainer
+- #assign_trainer
   - should take a trainer as argument and assign it to the client
 
 #### Location
-- location.least_clients
+- .least_clients
   - should find which location has the least clients training there. we need to increase the marketing spend for that location!
 
 #### Trainer
-- trainer.most_clients
+- .most_clients
   - should find which trainer has the most clients. give that trainer a bonus!
