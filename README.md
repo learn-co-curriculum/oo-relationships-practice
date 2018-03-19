@@ -5,4 +5,4 @@ Read the `gym.md` and `imdb.md` files to get started on those domains.
 
 ## Testing Your Code
 
-We've provided you with a console that you can use to test your code. To enter a console session, run ruby tools/console.rb. You'll be able to test out the methods that you write here.
+We've provided you with a console that you can use to test your code. Write all your code in the app folder so that it is loaded into the environment. To enter a console session, run ruby tools/console.rb. You'll be able to test out the methods that you write here.
