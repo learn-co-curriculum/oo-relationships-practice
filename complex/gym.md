@@ -9,10 +9,6 @@ You are building an app for a gym. But this is not just any gym. It has many loc
 
 Write out the relationships using has_many, belongs_to and has_many_through. Write out a schema that shows what these tables might look like in a database. Where would the foreign keys live? Then build out methods reflecting all these relationships.
 
-location#clients
-
-Client.all.select {|c| c.locations.includes?(self)}
-
 #### Client
 - #assign_trainer
   - should take a trainer as argument and assign it to the client
