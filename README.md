@@ -2,7 +2,7 @@
 Clone this repo from Github. CD into the main directory using your console and run `bundle install` to install all Gem dependencies.
 
 ## Challenges
-This repo contains domains for practicing building Object-Oriented Relationships. The descriptions for these exercises are located in the `exercises` directory. At the top of each file is a level indicating whether it is an easy, medium or hard domain. Harder levels include more models or more complex relationships.
+This repo contains domains for practicing building Object-Oriented Relationships. The descriptions for these exercises are located in the `exercises` directory. At the top of each file is a level indicating whether it is an easy, medium or hard domain. Harder levels include more models or more complex relationships. The harder models also include less explicit instructions about what methods to write. You should work to derive the methods that need to be defined from the relationship information given.
 
 ## Writing Code
 You should write all your code for these domains in files in the `app/models` directory. You can create models for all of the challenges in there. If you name the models as specified, none of the exercises should conflict with each other.
