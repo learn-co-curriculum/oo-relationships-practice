@@ -11,7 +11,7 @@ It is 1995 and you are building out IMDB. Take some time to think about the rela
   - an episode has many characters
 
 These are not simple relationships, so take some time creating them.
-Write out the relationships using has_many, belongs_to and has_many_through. Write out a schema that shows what these tables might look like in a database. Where would the foreign keys live? Then build out methods reflecting all these relationships.
+Write out the relationships using has_many, belongs_to and has_many_through. Write out a schema that shows what these tables might look like in a database. Where would the foreign keys live? Then *build out methods reflecting all these relationships.* What method can I call on a movie to find all its actors, etc?
 
 #### Movie
 - .most_actors
