@@ -25,7 +25,7 @@ Write out the relationships using has_many, belongs_to and has_many_through. Cre
 - #passengers
   - returns all passengers a driver has had
 - #rides
-  - returns all drives a passenger has made
+  - returns all rides a driver has made
 - .all
   - returns an array of all drivers
 - .mileage_cap(distance)
