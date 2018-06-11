@@ -21,7 +21,11 @@ Write out the relationships using has_many, belongs_to and has_many_through. Wri
   - returns all projects which have no pledges yet
 - .above_goal
   - returns all projects which have met or exceeded their pledge goal
+- .most_backers
+  - returns the project with the highest number of backers
 
 #### Pledge
-- .most_clients
-  - should find which trainer has the most clients. give that trainer a bonus!
+- #project
+  - returns the project associated with a particular pledge
+- #user
+  - returns the user associated with a particular pledge
