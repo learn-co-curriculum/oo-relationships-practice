@@ -24,4 +24,10 @@ class Bakery
     ingredients.map {|ingredient| ingredient.name}
   end
 
+  def average_calories
+    total_calories = 0
+    desserts.each {|dessert| total_calories += dessert.calories}
+    total_calories/(desserts.count)
+  end
+
 end

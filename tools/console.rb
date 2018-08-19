@@ -20,5 +20,4 @@ trip3 = Trip.new("Discovering Medellin", joy, med_hostel)
 trip4 = Trip.new("Out of names", felix, ny_ph)
 trip5 = Trip.new("What up", joy, ny_ph)
 trip6 = Trip.new("Group meeting",vadim,ny_ph)
-binding.pry
 Pry.start

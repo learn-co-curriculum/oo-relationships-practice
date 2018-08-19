@@ -3,10 +3,10 @@ class Ingredient
   @@all = []
   attr_reader :name, :calories
 
-  def initialize(name,calories, bakery)
+  def initialize(name,calories, dessert)
     @name = name
     @calories = calories
-    @bakery = bakery
+    @dessert = dessert
     @@all << self
   end
 

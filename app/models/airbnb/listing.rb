@@ -32,8 +32,8 @@ class Listing
   def self.most_popular
     count = 0
     all.each do |listing|
-      if listing.trips.count > count
-        count = listing.trips.count
+      if listing.trip_count > count
+        count = listing.trip_count
         winner = listing
       end
     end
