@@ -1,6 +1,6 @@
 class Trainer
 
-  attr_accessor :name
+  attr_accessor :name, :locations
 
   @@all = []
 
@@ -13,10 +13,20 @@ class Trainer
     @@all
   end
 
-  def locations
-    Location.all.select do |location|
-      location.trainers.
+  def sessions
+    Session.all.select do |session|
+      session.trainer == self
     end
+  end
+
+
+  def locations
+    self.sessions.collect do |session|
+
+        session.location
+
+    end
+    #binding.pry
   end
 
   def clients
@@ -29,12 +39,6 @@ class Trainer
     self.all.max do |a, b|
       a.clients.length <=> b.clients.length
     end
-
-    # '.max takes two arguments, one is the base value, the other is the value that it's being compared to. returns the object with the max value
-
-    # should find which trainer has the most clients. give that trainer a bonus!
-
   end
 
-end
-end
+  end

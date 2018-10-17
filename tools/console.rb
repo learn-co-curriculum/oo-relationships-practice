@@ -33,5 +33,6 @@ session5 = Session.new(client5, trainer5, location3)
 session6 = Session.new(client6, trainer4, location4)
 binding.pry
 
+trainer1.locations
 
 something = "hello"
