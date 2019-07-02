@@ -14,8 +14,7 @@ attr_accessor :title
 	end	
 
 	def self.on_the_big_screen
-		all.each {|s| Movie.select {|m| m.title == s.title}}
-		
+		all.select {|s|  Movie.all.select {|m| m.title == s.title} != []}		
 	end
 
 	
