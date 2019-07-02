@@ -40,7 +40,6 @@ MovieCharacter.new(sic_movie, carrie)
 MovieCharacter.new(sic_movie, samantha)
 MovieCharacter.new(wives_movie, shelly)
 
-
 ShowCharacter.new(sic_movie, carrie)
 ShowCharacter.new(sic_movie, samantha)
 
