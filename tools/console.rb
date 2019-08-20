@@ -19,6 +19,7 @@ peanuts = Ingredient.new("Peanuts", 50, cookies)
 
 # chips.bakery
 
+# puts chips.name == "Chips"
 
 binding.pry
 0
