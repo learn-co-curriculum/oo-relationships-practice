@@ -44,5 +44,7 @@ Create the necessary methods to connect these classes.
   - returns the passenger object for that ride
 - #driver
   - returns the driver object for that ride
+- #driver
+  - returns the distance travelled for that ride
 - .average_distance
   - should find the average distance of all rides
