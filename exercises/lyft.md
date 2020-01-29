@@ -6,7 +6,9 @@ You are building an app for a Lyft/Uber competitor
 
 - your models are passengers, drivers, rides
   - a passenger has many rides
+    - a passenger is initialized with a name 
   - a driver has many rides
+    - a driver is initialized with a distance 
   - a ride belongs to a passenger and a driver
     - a ride is initialized with a distance (as a float)
 
@@ -15,10 +17,12 @@ Create the necessary methods to connect these classes.
 
 #### Passenger
 
-- #drivers
-  - returns all drivers a passenger has ridden with
+- #name 
+  - returns the name of the passenger
 - #rides
   - returns all rides a passenger has been on
+- #drivers
+  - returns all drivers a passenger has ridden with
 - .all
   - returns an array of all passengers
 - #total_distance
@@ -29,10 +33,12 @@ Create the necessary methods to connect these classes.
 
 #### Driver
 
-- #passengers
-  - returns all passengers a driver has had
+- #name 
+  - returns the name of the passenger
 - #rides
   - returns all rides a driver has made
+- #passengers
+  - returns all passengers a driver has had
 - .all
   - returns an array of all drivers
 - .mileage_cap(distance)
@@ -44,7 +50,7 @@ Create the necessary methods to connect these classes.
   - returns the passenger object for that ride
 - #driver
   - returns the driver object for that ride
-- #driver
+- #distance
   - returns the distance travelled for that ride
 - .average_distance
   - should find the average distance of all rides
