@@ -8,12 +8,13 @@ You are building an app for a Lyft/Uber competitor
   - a passenger has many rides
     - a passenger is initialized with a name 
   - a driver has many rides
-    - a driver is initialized with a distance 
+    - a driver is initialized with a name 
   - a ride belongs to a passenger and a driver
     - a ride is initialized with a distance (as a float)
 
 Write out the relationships using has_many, belongs_to and has_many_through.
-Create the necessary methods to connect these classes.
+
+Complete the following deliverables.  You may choose to make additional helper methods if you find them useful.
 
 #### Passenger
 
@@ -34,7 +35,7 @@ Create the necessary methods to connect these classes.
 #### Driver
 
 - #name 
-  - returns the name of the passenger
+  - returns the name of the driver
 - #rides
   - returns all rides a driver has made
 - #passengers
