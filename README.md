@@ -9,24 +9,21 @@ run `bundle install` to install all Gem dependencies.
 
 This repo contains domains for practicing building Object-Oriented
 Relationships. The descriptions for these exercises are located in the
-`exercises` directory. At the top of each file is a level indicating whether it
-is an easy, medium or hard domain. Harder levels include more models or more
+`exercises` directory. At the top of each file is a level indicating  the difficulty level
+of the domain. Harder levels include more models or more
 complex relationships. The harder models also include less explicit instructions
 about what methods to write. You should work to derive the methods that need to
 be defined from the relationship information given.
 
-#### Easy
+#### Average
 
 - [Airbnb](https://github.com/learn-co-curriculum/oo-relationships-practice/blob/master/exercises/airbnb.md)
 - [Bakery](https://github.com/learn-co-curriculum/oo-relationships-practice/blob/master/exercises/bakery.md)
 - [Lyft](https://github.com/learn-co-curriculum/oo-relationships-practice/blob/master/exercises/lyft.md)
 
-#### Medium
+#### Challenging
 
 - [IMDB](https://github.com/learn-co-curriculum/oo-relationships-practice/blob/master/exercises/imdb.md)
-
-#### Hard
-
 - [Crowdfunding](https://github.com/learn-co-curriculum/oo-relationships-practice/blob/master/exercises/crowdfunding.md)
 - [Gym](https://github.com/learn-co-curriculum/oo-relationships-practice/blob/master/exercises/gym.md)
 
