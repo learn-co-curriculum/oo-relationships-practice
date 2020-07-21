@@ -11,9 +11,9 @@ You are building an app for a national bakery chain
   - an `Ingredient` can be used in many `Dessert`s
     - every `Ingredient` has a calorie count
 
-Write out the relationships using `has_many`, `belongs_to` and `has_many_through`.
+**Draw out your schema *first*.** Write out the relationships using `has_many`, `belongs_to` and `has_many_through`.
 
-Create the necessary methods to connect these classes.  You should do all the easier methods first (often the ones that are about a single class, as opposed to a method using two or more classes).  Going top to bottom is probably not your best strategy!
+Create the necessary methods to connect these classes.  **You should do all the easier methods first (often the ones that are about a single class, as opposed to a method using two or more classes).  Going top to bottom is probably not your best strategy!**
 
 #### Bakery
 
