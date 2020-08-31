@@ -31,9 +31,9 @@ Create the necessary methods to connect these classes.  **You should do all the 
 #### Desserts
 
 - #ingredients
-  - should return an array of ingredients objects for the dessert
+  - should return an array of `Ingredient` objects for the dessert
 - #bakery
-  - should return the bakery object for the dessert
+  - should return the `Bakery` object for the dessert
 - #calories
   - should return a float totaling all the calories for all the ingredients included in that dessert
 - .all
