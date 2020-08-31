@@ -1,4 +1,4 @@
-# Level: Easy
+# Level: Average
 
 ## Deliverables
 
